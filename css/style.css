@@ -28,6 +28,7 @@ body {
 }
 a {
   text-decoration: none;
+  display: block;
 }
 
 p,
@@ -155,11 +156,10 @@ button {
 }
 
 .contact-icon {
-  width: 16px;
-  height: 12px;
   margin-right: 10px;
   fill: currentColor;
 }
+
 .contact .item + .item {
   margin-left: 50px;
 }
@@ -396,7 +396,7 @@ button {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.container.footer {
+.footer .container {
   display: flex;
   align-items: baseline;
 }
@@ -442,6 +442,7 @@ button {
   align-items: center;
   justify-content: center;
   color: var(--white-color);
+  background: rgba(255, 255, 255, 0.1);
 }
 .join-symbol {
   fill: currentColor;
@@ -514,8 +515,8 @@ button {
   margin-bottom: 0;
 }
 
-.portfolio-item:hover,
-.portfolio-item:focus {
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
